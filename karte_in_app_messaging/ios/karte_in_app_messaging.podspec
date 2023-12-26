@@ -19,7 +19,7 @@ Flutter plugin for KARTE In-app Messaging.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'KarteInAppMessaging', '~> 2'
+  s.dependency 'KarteInAppMessaging', '>= 2', '< 2.16'
   s.platform = :ios, '10.0'
   s.static_framework = true
 
